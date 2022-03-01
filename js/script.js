@@ -739,8 +739,3 @@ console.log(construtor2);
 
 // JavaScript Dom manipulition
 const box1 = document.querySelector('.box-1');
-const box2 = document.querySelector('.box-2');
-
-
-
-

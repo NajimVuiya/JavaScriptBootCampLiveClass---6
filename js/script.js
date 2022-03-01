@@ -737,3 +737,5 @@ console.log(construtor1);
 const construtor2 = new NewFunctonContractor('Mamuda akter','mahmuda@gmail.com','9023749127','uisodfa','female')
 console.log(construtor2);
 
+// JavaScript Dom manipulition
+const box1 = document.querySelector('.box-1');

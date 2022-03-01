@@ -1,0 +1,17 @@
+body
+{
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #747474;
+}
+
+h2{
+	margin: 0px;
+	padding: 8px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #efefef;
+	background-color: #000;
+}
+

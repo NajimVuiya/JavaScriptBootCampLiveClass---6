@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
 body
 {
 	margin: 0px;
@@ -18,7 +21,7 @@ body
 
 .box-1 {
     width: 300px;
-    margin: 10px 20px 0px 10px;
+    margin: 10px 10px 0px 10px;
     padding: 10px;
     border: 1px solid #efefef;
     box-shadow: 2px 2px 5px #000;
@@ -31,11 +34,13 @@ body
     text-align: center;
     font-size: 26px;
     color: #efef;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .box-1 p {
     margin: 4px 0 4px 3px;
     color: #fff;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .box-1 button {
@@ -49,11 +54,12 @@ body
 .box-2 
 {
 	width: 300px;
-    margin: 10px 0 0 10px;
+    margin: 10px 20px 0 10px;
     padding: 10px;
     border: 1px solid #efefef;
     box-shadow: 2px 2px 5px #000;
     border-radius: 5px;
+    float: left;
     overflow: hidden;
 }
 
@@ -62,11 +68,13 @@ body
     text-align: center;
     font-size: 26px;
     color: #efef;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .box-2 p {
     margin: 4px 0 4px 3px;
     color: #fff;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .box-2 button {
@@ -76,9 +84,43 @@ body
     padding: 3px 5px 3px 5px;
 }
 
+/* box - 3 start here  */
+.box-3
+{
+	width: 300px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
-#heading2
+
+.box-3 h2 {
+    margin: 3px 0 0 3px;
+    text-align: center;
+    font-size: 26px;
+    color: #efef;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box-3 p {
+    margin: 4px 0 4px 3px;
+    color: #fff;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.box-3 button {
+    margin: 2px 0 0 0;
+    border: 1px solid #efef;
+    border-radius: 3px;
+    padding: 3px 5px 3px 5px;
+}
+
+#heading2 
 {
 	text-align: center;
 	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
 }

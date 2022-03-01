@@ -740,8 +740,11 @@ console.log(construtor2);
 // JavaScript Dom manipulition
 const box1 = document.querySelector('.box-1');
 const box2 = document.querySelector('.box-2');
+const box3 = document.querySelector('.box-3');
+const heading2 = document.querySelector('#heading2');
 
 console.log(box1);
 console.log(box2);
-
+console.log(box3);
+console.log(heading2);
 
